@@ -22,5 +22,10 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
     # Calcula a média
     media = sum(notas) / len(notas)
 
+    # Verifica se a média é um número inteiro
+    if media.is_integer():
+        media = int(media)  # Converte para inteiro se for um número inteiro
+
     # Envia a média de volta para o cliente
     conn.sendall(str(media).encode())
+
