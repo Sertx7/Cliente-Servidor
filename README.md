@@ -3,7 +3,7 @@
 
 Este projeto implementa uma aplicação cliente-servidor simples em Python, onde o cliente envia duas notas para o servidor, que calcula a média e envia o resultado de volta ao cliente. A comunicação entre o cliente e o servidor é realizada utilizando sockets com o protocolo TCP/IP.
 
-en_US
+en-US
 
 This project implements a simple client-server application in Python, where the client sends two grades to the server, which calculates the average and sends the result back to the client. The communication between the client and the server is achieved using sockets with the TCP/IP protocol.
 
