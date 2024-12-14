@@ -1,4 +1,5 @@
 # Sistema Cliente-Servidor / Client-Server System
+**Introdução**  /  **Introduction**
 
 Este projeto implementa uma aplicação cliente-servidor simples em Python, onde o cliente envia duas notas para o servidor, que calcula a média e envia o resultado de volta ao cliente. A comunicação entre o cliente e o servidor é realizada utilizando sockets com o protocolo TCP/IP.
 
