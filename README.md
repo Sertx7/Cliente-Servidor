@@ -19,7 +19,7 @@ This project implements a simple client-server application in Python, where the 
 
 # Funcionalidade / Functionality
 
-**Cliente**: / **Client**:
+**Cliente** / **Client**
 
 - Solicita ao usuário que insira duas notas.
 - Envia as notas para o servidor.
@@ -31,7 +31,7 @@ en-US
 - Sends the grades to the server.
 - Receives the average calculated by the server and displays the result.
 
-**Servidor**: / **Server**:
+**Servidor** / **Server**
 
 - Escuta uma porta específica e aguarda a conexão do cliente.
 - Recebe as notas enviadas pelo cliente.
